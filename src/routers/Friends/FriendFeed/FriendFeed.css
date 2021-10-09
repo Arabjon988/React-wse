@@ -1,0 +1,49 @@
+.FriendFeed{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+}
+.BigfriendFeed{
+    display: flex;
+}
+.CardFriend{
+    width: 230px;
+    height: 320px;
+    background-color: #fff;
+   margin: 0px 5px;
+   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.CardFriend > img{
+    width: 100%;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.CardFriend > span {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.CardFriend > button{
+    width: 90%;
+    height: 34px;
+   margin: 5px 10px ;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+.CardFriend > .firstBtn{
+    background-color: #1877F2;
+    color: #fff;
+}
+.CardFriend > .TwoBtn:hover{
+ background-color: #979292;
+}
+.TwoFeedFirend{
+    display: flex;
+
+margin-top: 10px;
+}

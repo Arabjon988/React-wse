@@ -1,0 +1,172 @@
+.friend{
+    width: 100%;
+}
+.header{
+    position: fixed;
+}
+.bigDivFriend{
+    width: 100%;
+height: auto;
+    display: flex;
+  position: relative;
+ top: 60px;
+}
+.saidbarFriend{
+    width: 25%;
+    height: 100vh;
+   overflow-y: hidden;
+   position: fixed;
+}
+
+.frienHeader{
+    width: 100%;
+    height:  50px;
+    display: flex;
+    align-items: center;
+  position: relative;
+}
+.settings{
+    width: 40px;
+    height: 40px;
+    background-color: #5d5d5d5d;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.settings > svg {
+    margin-left: 5px;
+}
+.frienHeader > h2{
+    margin-left: 15px;
+}
+.SettingDivFriend{
+    position: absolute;
+    width: 350px;
+    height: 150px;
+    top: 42px;
+   left: 10px;
+    border-radius: 10px;
+    background-color: green;
+  z-index: 55;
+}
+.SettingDivFriend > h4{
+ margin-left: 15px;
+}
+.SettingDivFriend > p {
+    font-size: 13px;
+    margin-left: 15px;
+}
+.xecnima{
+    transform: scale(0);
+}
+.line {
+    width: 90%;
+    margin: auto;
+    height: 2px;
+    background-color: red;
+   margin-top: 15px;
+}
+.checkbox{
+    display: flex;
+    margin: 10px  18px;
+}
+.checkbox > input {
+    margin: 5px 30px;
+}
+.HomeFriend{
+    width: 96%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #5d5d5d5d;
+    display: flex;
+    align-items: center;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.HomeFriend > h2 {
+    margin-left: 10px;
+}
+.FriendRequests{
+    width: 96%;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.FriendRequests:hover{
+    background-color: #5d5d5d5d;
+}
+.userfirend{
+  width: 40px;
+  height: 40px;
+  background: #b9b5b55d;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+}
+.userfirend > svg {
+    margin-left: 13px;
+}
+.FriendRequests > h3 {
+    margin-left: 15px;
+}
+.wrapperFriend{
+    width: 75%;
+    height: auto;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+}
+.frienrequests{
+    width: 100%;
+    height: 100vh;
+    background-color: #5d5d5d5d;
+    display: flex;
+}
+.highheader{
+    position: absolute;
+    display: flex;
+}
+.highheader > a > p{
+ margin-left:  810px;
+ margin-top: 20px;
+ color: blue ;
+ cursor: pointer;
+}
+.highheader > h2 {
+    margin-top: 10px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.lineFriend{
+    width: 95%;
+    height: 2px;
+    background-color: #7c78785d;
+    margin: auto;
+}
+.PeopleMayKnow{
+    width: 100%;
+    height: 100vh;
+   background-color: #5d5d5d5d;
+}
+.TwoPoepleKnow{
+    position: absolute;
+    display: flex;
+}
+.TwoPoepleKnow  > h2{
+    margin-top: 10px;
+    margin-left: 55px;
+    cursor: pointer;
+}
+.TwoPoepleKnow > p {
+    margin-left:  740px;
+    margin-top: 20px;
+    color: blue ;
+    cursor: pointer;
+}

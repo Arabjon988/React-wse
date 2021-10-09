@@ -1,0 +1,19 @@
+.msg{
+    margin-top: 50px;
+}
+
+
+li{
+    list-style: none;
+}
+
+.msg{
+    width: 350px;
+    height: 550px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 212);
+    background-color: papayawhip;
+    font-size: 15px;
+    position: absolute;
+}

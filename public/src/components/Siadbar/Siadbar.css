@@ -1,0 +1,48 @@
+.siadbar{
+    width: 30%;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    background-color: #E4E6E9;
+    overflow-y: auto;
+}
+
+.firendes {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+   transition: 0.2s all;
+}
+.firendes > ul {
+    display: flex;
+    margin: 15px 0px;
+}
+.firendes:hover{
+    width: 98%;
+    border-radius: 10px;
+ background-color: cadetblue;
+ transition: 0.2s all;
+}
+.firendes > ul > li{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px 8px;
+}
+.firendes a > ul > li > span {
+    margin-left: 15px;
+ color: #000;
+    
+}
+
+.firendes > a > ul > li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.firendes > ul  > li > img {
+ width: 50px;
+}

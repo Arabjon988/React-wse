@@ -1,0 +1,197 @@
+.groups{
+    width: 100%;
+    height: auto;    
+}
+.BigGrops{
+    width: 100%;
+    height: auto;
+   display: flex;
+position: relative;
+top: 60px;
+}
+.GroupsSaidbar{
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    background-color: #fff;
+}
+.GropsWrapper{
+    width: 75%;
+    height: auto;
+    background-color: #5d5d5d5d;
+    margin-left: 25%;
+    z-index: -1;
+}
+.GroupsHeaderSaidbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.SettingDivGroups > h4 {
+margin-left: 30px;
+}
+.SettingDivGroups > p {
+    margin-left: 30px;
+}
+.GroupsSettings{
+    width: 40px;
+    height: 40px;
+    background-color: #5d5d5d5d;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.GroupsSettings > svg {
+    margin-left: 5px;
+}
+.SettingDivGroups{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    top: 42px;
+    left: 10px;
+    border-radius: 10px;
+    background-color: green;
+    z-index: 55;
+
+}
+.nimadur{
+ transform: scale(0);
+}
+.GroupsSettings2{
+    width: 40px;
+    height: 40px;
+    background-color: #5d5d5d5d;
+    font-size: 30px;
+    border-radius: 50%;
+}
+.GroupsSettings2 > svg {
+    margin-left: 5px;
+}
+.nnn{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+}
+.nnn:hover{
+   background-color : #5d5d5d5d ;
+}
+.Customize{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+}
+.Customize:hover{
+    background-color: #5d5d5d5d;
+}
+.Customize{
+    display: flex;
+}
+.line2{
+    width: 95%;
+    height: 1px;
+    background-color: #d6c4c45d;
+    margin:  auto;
+}
+.manage{
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.Pings{
+    display: flex;
+    margin: 10px 0px;
+}
+.Pings:hover{
+    background-color: #5d5d5d5d;
+}
+.Pings > .textgroups{
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.YourFeed{
+    width: 98%;
+    height: 50px;
+    background-color: #5d5d5d5d;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.feedbac{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.YourFeed > h3 {
+    margin-left: 10px;
+}
+.discover{
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.discover:hover{
+    background-color: #5d5d5d5d;
+}
+.DiscoverDive{
+    width: 40px;
+    height: 40px;
+    background-color: #5d5d5d5d;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.discover > h3 {
+    margin-left: 10px;
+}
+.YourNotlftions{
+    width: 98%;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.YourNotlftions:hover{
+    background-color: #5d5d5d5d;
+}
+.YourNotlftions > h3 {
+    margin-left: 10px;
+}
+
+.CreateList{
+    width: 90%;
+    height: 37px;
+    background-color: #E7F3FF;
+   margin: auto;
+   border-radius: 10px;
+  margin-top: 10px;
+ text-align: center;
+ cursor: pointer;
+}
+.CreateList:hover{
+    background-color: #5d5d5d5d;
+}
+.CreateList > h3 {
+padding-top: 5px;
+}
+
+
+
+
+
+
+
+
