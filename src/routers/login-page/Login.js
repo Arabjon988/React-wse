@@ -35,7 +35,6 @@ function Login() {
             })
             .catch(err => console.log(err))
         e.preventDefault(user)
-        console.log(email, password)
     }
 
 
