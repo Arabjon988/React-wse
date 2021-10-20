@@ -20,7 +20,6 @@ function Login() {
             })
             .catch(err => console.log(err))
         e.preventDefault()
-        console.log(email, password)
     }
 
     const signInUser = (e) => {
