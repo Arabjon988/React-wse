@@ -2,4 +2,14 @@
     width: 100%;
     background-color: #F0F2F5;
     height: auto;
+    position: relative;
+}
+
+.home-wrapper{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow-y: hidden;
+    margin-top: 60px;
 }

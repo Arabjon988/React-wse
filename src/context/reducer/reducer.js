@@ -1,20 +1,9 @@
 export const initialState = {
-    activeStory: null,
     user: null
 }
 
 const reducer = (state, action) => {
     switch (action.type) {
-        case "SET_ACTIVE_STORY":
-            return {
-                ...state,
-                activeStory: action.activeStory
-            }
-        case "CLOSE_ACTIVE_STORY":
-            return{
-                ...state,
-                activeStory: null
-            }
 
         case "REGISTER_USER":
             return{

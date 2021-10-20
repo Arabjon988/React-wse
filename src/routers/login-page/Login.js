@@ -4,7 +4,7 @@ import './Login.css'
 import { useStateValue } from '../../context/stateProvider/StateProvider'
 
 function Login() {
-    const [ dispatch] = useStateValue(null)
+    const [ {user}, dispatch] = useStateValue()
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
@@ -34,7 +34,7 @@ function Login() {
                 }
             })
             .catch(err => console.log(err))
-        e.preventDefault()
+        e.preventDefault(user)
         console.log(email, password)
     }
 

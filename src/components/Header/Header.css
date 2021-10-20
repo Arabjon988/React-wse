@@ -1,57 +1,89 @@
-.header{
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 1000;
     width: 100%;
+    top: 0;
     height: 60px;
-    background-color: #fff;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.5);
+}
+  
+.header__left{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.header  > img {
-    width: 40px;
-   height: 40px;
-  margin: 10px 20px;
-}
-.input {
-    width: 200px;
+  
+.header__left > img {
     height: 40px;
-    border-radius: 50px;
-    position: relative;
-    margin-left: -10px;
-    background-color: #F0F2F5;
+}
+  
+  .header__input {
     display: flex;
     align-items: center;
-
-}
-.input > input{
-    width: 150px;
-    height: 30px;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 33px;
+  }
+  
+  .header__input > input {
     border: none;
-    outline: none;
-   background: transparent;
+    outline-width: 0;
+    background-color: transparent;
+  }
+  
+.header__center .header__collect{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+    justify-content: space-between;
 }
-.input > svg{
-    font-size: 20px;
-}
-.HomeHeader{
-    font-size: 34px;
-    margin: 0px 300px;
-   display: flex;
-   align-items: center;
-  position: relative;
-}
-.HomeHeader > a {
-    text-decoration: none;
-    color: #000;
-}
-
-.HomeHeader > .home:hover{
- width: 70px;
- height: 50px;
- border-radius: 10px;
- background: rgba(189, 176, 176, 0.24); 
+  
+.header__center .header__collect svg{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  left: 40px;
+  right: 40px;
 }
 
-
-.HomeHeader> .user{
-    margin-left: 40px;
+.header-marketPlace{
+   width: 25px;
+   height: 25px;
+   margin-left: 10px;
+   margin-right: 10px;
+   color: cadetblue;
 }
+
+.header__center{
+  align-items: center;
+  width: 43%;
+  margin-left: 10%;
+  height: auto;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    height: auto;
+    margin-left: 20%;
+}
+  
+.header__info {
+    display: flex;
+    align-items: center;
+}
+
+
+.header__info > svg {
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 22px;
+    height: 22px;
+}
+  

@@ -1,0 +1,7 @@
+.center{
+    width: 50%;
+    margin-left: 22%;
+    z-index: 3;
+    height: 120vh;
+    background-color: blue;
+}

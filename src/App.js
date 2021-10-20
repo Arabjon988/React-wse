@@ -20,19 +20,19 @@ function App() {
     <Router>
       <div className="app">
         <Switch> 
-        { user ?  <Login /> :
+        { user ?    <Login /> :
           <>
             <Route exact path="/" component={Home} />
             <Route exact path="/friends" component={Friends} />
-            <Route exact path="/Groups" component={Groups} />
-            <Route exact path="/Watch" component={Watch} />
+            <Route exact path="/groups" component={Groups} />
+            <Route exact path="/watch" component={Watch} />
             <Route exact path="/Favorites" component={Favorites} />
             <Route exact path="/Messenger" component={Messenger} />
-            <Route exact path="/PlayGames" component={PlayGames} />
+            <Route exact path="/playGames" component={PlayGames} />
             <Route exact path="/Suggest" component={Suggest} />
-            <Route exact path="/Weather" component={Weather} />
-            <Route exact path="/SuggestFriend" component={SuggestFriend} />
-            <Route exact path="/GruopsFeed" component={GruopsFeed} />
+            <Route exact path="/weather" component={Weather} />
+            <Route exact path="/suggestFriend" component={SuggestFriend} />
+            <Route exact path="/gruopsFeed" component={GruopsFeed} />
           </> 
         }
 
