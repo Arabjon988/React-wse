@@ -19,7 +19,6 @@ import "./Header.css";
 
 function Header() {
   const [msg, setMsg] = useState('')
-  const [groups, setGroups] = useState('')
   let location = useLocation('')
 
 
