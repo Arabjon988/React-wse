@@ -20,7 +20,7 @@ function App() {
     <Router>
       <div className="app">
         <Switch> 
-        { user ?    <Login /> :
+        { user ?    
           <>
             <Route exact path="/" component={Home} />
             <Route exact path="/friends" component={Friends} />
@@ -33,7 +33,7 @@ function App() {
             <Route exact path="/weather" component={Weather} />
             <Route exact path="/suggestFriend" component={SuggestFriend} />
             <Route exact path="/gruopsFeed" component={GruopsFeed} />
-          </> 
+          </> : <Login />
         }
 
 
